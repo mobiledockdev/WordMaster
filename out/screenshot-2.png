@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 393 804">
+  <defs>
+    <linearGradient id="screengrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="393" height="804" fill="white" rx="40" stroke="#d1d5db" stroke-width="2"/>
+  <rect x="10" y="10" width="373" height="784" fill="url(#screengrad2)" rx="35"/>
+  <text x="196" y="100" font-size="28" font-weight="bold" fill="#0284c7" text-anchor="middle">Learning Mode</text>
+  <circle cx="80" cy="200" r="30" fill="#fbbf24" opacity="0.2"/>
+  <circle cx="313" cy="200" r="30" fill="#fbbf24" opacity="0.2"/>
+  <text x="196" y="210" font-size="18" font-weight="600" fill="#1e293b" text-anchor="middle">🎵</text>
+  <rect x="40" y="280" width="313" height="80" fill="#0ea5e9" rx="12"/>
+  <text x="196" y="310" font-size="16" font-weight="600" fill="white" text-anchor="middle">Pronunciation</text>
+  <text x="196" y="340" font-size="14" fill="white" text-anchor="middle">/ˌɪn.təˈlɪ.dʒəns/</text>
+  <rect x="40" y="400" width="313" height="100" fill="white" rx="12"/>
+  <text x="60" y="430" font-size="16" font-weight="600" fill="#1e293b">Definition</text>
+  <text x="60" y="460" font-size="13" fill="#64748b">The ability to learn,</text>
+  <text x="60" y="480" font-size="13" fill="#64748b">understand, and apply</text>
+  <rect x="40" y="530" width="313" height="60" fill="#ec4899" opacity="0.1" rx="12"/>
+  <text x="196" y="565" font-size="16" font-weight="600" fill="#be185d" text-anchor="middle">✓ Marked as learned</text>
+</svg>
