@@ -58,11 +58,16 @@ export default function Hero() {
               <div className="absolute inset-0 bg-gradient-to-r from-primary-300 to-primary-100 blur-3xl opacity-30 rounded-3xl"></div>
               <div className="relative bg-white rounded-3xl border-8 border-gray-300 overflow-hidden shadow-2xl">
                 {imageError ? (
-                  <div className="w-full aspect-[393/804] bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
-                    <div className="text-center p-4">
-                      <div className="text-gray-400 mb-2">📱</div>
-                      <p className="text-gray-500 text-sm font-medium">Screenshot placeholder</p>
+                  <div className="w-full aspect-[393/804] bg-gradient-to-br from-primary-50 to-primary-100 flex flex-col items-center justify-center p-8">
+                    <div className="mb-6">
+                      <div className="w-20 h-20 bg-gradient-to-br from-primary-400 to-primary-600 rounded-2xl flex items-center justify-center shadow-lg">
+                        <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                        </svg>
+                      </div>
                     </div>
+                    <p className="text-primary-900 text-center font-semibold text-base">Screenshot</p>
+                    <p className="text-primary-600 text-center text-xs mt-1">Image unavailable</p>
                   </div>
                 ) : (
                   <Image
