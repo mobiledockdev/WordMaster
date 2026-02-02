@@ -53,7 +53,7 @@ export default function Hero() {
           <div className="flex justify-center items-center">
             <div className="relative w-full max-w-xs">
               <div className="absolute inset-0 bg-gradient-to-r from-primary-300 to-primary-100 blur-3xl opacity-30 rounded-3xl"></div>
-              <div className="relative bg-white rounded-3xl border-8 border-gray-300 overflow-hidden shadow-2xl">
+              <div className="relative bg-white rounded-3xl overflow-hidden shadow-2xl">
                 {!imageError && (
                   <Image
                     src="/screenshot-1.png"
