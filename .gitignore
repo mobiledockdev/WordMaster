@@ -1,0 +1,5 @@
+.eslintrc.json
+.next/
+node_modules/
+*.log
+.DS_Store
