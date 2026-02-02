@@ -21,9 +21,6 @@ export default function Hero() {
             <p className="text-gray-600 text-lg md:text-xl mb-2">
               Master English vocabulary with curated lists, visuals, and audio
             </p>
-            <p className="text-gray-500 text-sm mb-8 italic">
-              Овладейте английским словарным запасом с помощью кураторских списков
-            </p>
             <p className="text-gray-600 text-lg mb-8">
               Learn with professional word collections (Oxford 3000, Cambridge CEFR, Longman 3000), visual mnemonics, native pronunciation audio, and car mode for hands-free practice anywhere.
             </p>

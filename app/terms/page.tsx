@@ -10,7 +10,6 @@ export default function TermsPage() {
     <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
       <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-2">Terms of Use</h1>
       <p className="text-gray-600 mb-8">Last updated: January 2026</p>
-      <p className="text-gray-600 mb-8 italic">Условия использования</p>
 
       <div className="space-y-8 text-gray-700 leading-relaxed">
         <section>

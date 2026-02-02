@@ -24,9 +24,6 @@ export default function Home() {
           <p className="text-primary-100 text-lg mb-2">
             Your vocabulary learning, your control
           </p>
-          <p className="text-primary-100 text-lg mb-6">
-            Ваше обучение, ваш контроль
-          </p>
           <p className="max-w-2xl mx-auto text-primary-100 mb-6 leading-relaxed">
             WordMaster stores most of your learning data locally on your device. We don't track your activity, sell your data, or share your information with third parties. Your privacy is our top priority.
           </p>
