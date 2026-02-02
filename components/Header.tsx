@@ -5,7 +5,6 @@ import Image from 'next/image'
 import { useState, useEffect } from 'react'
 import { usePathname } from 'next/navigation'
 import SupportModal from '@/components/SupportModal'
-import { APP_STORE_URL } from '@/lib/constants'
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
@@ -84,14 +83,6 @@ export default function Header() {
               >
                 Support
               </button>
-              <a
-                href={APP_STORE_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-primary"
-              >
-                Download App
-              </a>
             </div>
           </div>
         </nav>
