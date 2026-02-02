@@ -1,4 +1,7 @@
+'use client'
+
 import Image from 'next/image'
+import { useState } from 'react'
 
 const steps = [
   {
@@ -28,6 +31,12 @@ const steps = [
 ]
 
 export default function HowItWorks() {
+  const [imageErrors, setImageErrors] = useState<{ [key: number]: boolean }>({})
+
+  const handleImageError = (index: number) => {
+    setImageErrors((prev) => ({ ...prev, [index]: true }))
+  }
+
   return (
     <section id="how-it-works" className="section-container bg-gradient-to-b from-transparent to-primary-50">
       <div className="mb-12">
@@ -71,13 +80,23 @@ export default function HowItWorks() {
               <div className="relative w-full max-w-xs mx-auto">
                 <div className="absolute inset-0 bg-gradient-to-r from-primary-300 to-primary-100 blur-2xl opacity-20 rounded-3xl"></div>
                 <div className="relative bg-white rounded-2xl border border-gray-200 overflow-hidden shadow-lg">
-                  <Image
-                    src={step.image}
-                    alt={`Step ${step.number}: ${step.title}`}
-                    width={280}
-                    height={580}
-                    className="w-full h-auto"
-                  />
+                  {imageErrors[index] ? (
+                    <div className="w-full aspect-[280/580] bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
+                      <div className="text-center p-4">
+                        <div className="text-gray-400 mb-2">📱</div>
+                        <p className="text-gray-500 text-sm font-medium">Screenshot placeholder</p>
+                      </div>
+                    </div>
+                  ) : (
+                    <Image
+                      src={step.image}
+                      alt={`Step ${step.number}: ${step.title}`}
+                      width={280}
+                      height={580}
+                      className="w-full h-auto"
+                      onError={() => handleImageError(index)}
+                    />
+                  )}
                 </div>
               </div>
             </div>

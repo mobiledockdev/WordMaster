@@ -17,7 +17,7 @@ export default function SupportPage() {
           <p className="text-gray-600 mb-6">
             Find answers to frequently asked questions about WordMaster features, learning modes, and account management.
           </p>
-          <a href="/#faq" className="text-primary-600 hover:text-primary-700 font-semibold flex items-center gap-2">
+          <a href="#support-faq" className="text-primary-600 hover:text-primary-700 font-semibold flex items-center gap-2">
             Browse FAQ
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -125,7 +125,7 @@ export default function SupportPage() {
         </div>
       </div>
 
-      <section className="mt-12 bg-gray-50 rounded-xl p-8">
+      <section className="mt-12 bg-gray-50 rounded-xl p-8" id="support-faq">
         <h2 className="text-2xl font-bold text-gray-900 mb-6">Troubleshooting Tips</h2>
         <div className="space-y-4">
           <div className="border-l-4 border-primary-500 pl-4">

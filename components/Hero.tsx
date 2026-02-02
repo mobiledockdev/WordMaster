@@ -1,8 +1,16 @@
 'use client'
 
 import Image from 'next/image'
+import { useState } from 'react'
+import { APP_STORE_URL } from '@/lib/constants'
 
 export default function Hero() {
+  const [imageError, setImageError] = useState(false)
+
+  const handleImageError = () => {
+    setImageError(true)
+  }
+
   return (
     <section className="gradient-bg pt-20 pb-16 md:pt-32 md:pb-24">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -23,7 +31,7 @@ export default function Hero() {
 
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <a
-                href="https://apps.apple.com/app/wordmaster"
+                href={APP_STORE_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary justify-center"
@@ -61,14 +69,24 @@ export default function Hero() {
             <div className="relative w-full max-w-xs">
               <div className="absolute inset-0 bg-gradient-to-r from-primary-300 to-primary-100 blur-3xl opacity-30 rounded-3xl"></div>
               <div className="relative bg-white rounded-3xl border-8 border-gray-300 overflow-hidden shadow-2xl">
-                <Image
-                  src="/screenshot-1.png"
-                  alt="WordMaster Learning Interface"
-                  width={393}
-                  height={804}
-                  priority
-                  className="w-full h-auto"
-                />
+                {imageError ? (
+                  <div className="w-full aspect-[393/804] bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
+                    <div className="text-center p-4">
+                      <div className="text-gray-400 mb-2">📱</div>
+                      <p className="text-gray-500 text-sm font-medium">Screenshot placeholder</p>
+                    </div>
+                  </div>
+                ) : (
+                  <Image
+                    src="/screenshot-1.png"
+                    alt="WordMaster Learning Interface"
+                    width={393}
+                    height={804}
+                    priority
+                    className="w-full h-auto"
+                    onError={handleImageError}
+                  />
+                )}
               </div>
             </div>
           </div>

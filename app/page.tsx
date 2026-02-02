@@ -3,6 +3,7 @@ import Hero from '@/components/Hero'
 import Features from '@/components/Features'
 import HowItWorks from '@/components/HowItWorks'
 import FAQ from '@/components/FAQ'
+import { APP_STORE_URL } from '@/lib/constants'
 
 export const metadata: Metadata = {
   title: 'WordMaster: Ultimate Vocabulary Builder for iOS',
@@ -52,7 +53,7 @@ export default function Home() {
             Начните овладевать словарным запасом уже сегодня
           </p>
           <a
-            href="https://apps.apple.com/app/wordmaster"
+            href={APP_STORE_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary text-lg justify-center inline-flex"
