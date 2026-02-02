@@ -54,19 +54,7 @@ export default function Hero() {
             <div className="relative w-full max-w-xs">
               <div className="absolute inset-0 bg-gradient-to-r from-primary-300 to-primary-100 blur-3xl opacity-30 rounded-3xl"></div>
               <div className="relative bg-white rounded-3xl border-8 border-gray-300 overflow-hidden shadow-2xl">
-                {imageError ? (
-                  <div className="w-full aspect-[393/804] bg-gradient-to-br from-primary-50 to-primary-100 flex items-center justify-center">
-                    <div className="w-24 h-24 bg-white rounded-2xl shadow-lg flex items-center justify-center">
-                      <Image
-                        src="/app-icon.png"
-                        alt="WordMaster App Icon"
-                        width={72}
-                        height={72}
-                        className="w-16 h-16"
-                      />
-                    </div>
-                  </div>
-                ) : (
+                {!imageError && (
                   <Image
                     src="/screenshot-1.png"
                     alt="WordMaster Learning Interface"

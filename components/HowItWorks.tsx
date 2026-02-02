@@ -80,19 +80,7 @@ export default function HowItWorks() {
               <div className="relative w-full max-w-xs mx-auto">
                 <div className="absolute inset-0 bg-gradient-to-r from-primary-300 to-primary-100 blur-2xl opacity-20 rounded-3xl"></div>
                 <div className="relative bg-white rounded-2xl border border-gray-200 overflow-hidden shadow-lg">
-                  {imageErrors[index] ? (
-                    <div className="w-full aspect-[280/580] bg-gradient-to-br from-primary-50 to-primary-100 flex items-center justify-center">
-                      <div className="w-20 h-20 bg-white rounded-2xl shadow-md flex items-center justify-center">
-                        <Image
-                          src="/app-icon.png"
-                          alt="WordMaster App Icon"
-                          width={60}
-                          height={60}
-                          className="w-14 h-14"
-                        />
-                      </div>
-                    </div>
-                  ) : (
+                  {!imageErrors[index] && (
                     <Image
                       src={step.image}
                       alt={`Step ${step.number}: ${step.title}`}
