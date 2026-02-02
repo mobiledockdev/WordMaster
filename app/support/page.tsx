@@ -93,7 +93,7 @@ export default function SupportPage() {
           Whether you have a question, found a bug, or have a feature request, we'd love to hear from you. Reach out to us anytime and we'll get back to you within 24 hours.
         </p>
         <a
-          href="mailto:support@wordmaster.app"
+          href="mailto:vladislavpshenyanik@gmail.com"
           className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary-600 rounded-lg font-semibold hover:bg-primary-50 transition-colors"
         >
           <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -107,8 +107,8 @@ export default function SupportPage() {
         <div className="text-center p-6">
           <div className="text-4xl mb-3">📧</div>
           <h3 className="font-bold text-gray-900 mb-2">Email</h3>
-          <a href="mailto:support@wordmaster.app" className="text-primary-600 hover:underline break-all">
-            support@wordmaster.app
+          <a href="mailto:vladislavpshenyanik@gmail.com" className="text-primary-600 hover:underline break-all">
+            vladislavpshenyanik@gmail.com
           </a>
         </div>
 

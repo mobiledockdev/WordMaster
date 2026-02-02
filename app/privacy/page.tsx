@@ -83,7 +83,7 @@ export default function PrivacyPage() {
             <li><strong>Portability:</strong> Export your learning data in standard formats</li>
           </ul>
           <p className="mt-4">
-            To exercise these rights, email us at <a href="mailto:privacy@wordmaster.app" className="text-primary-600 hover:underline">privacy@wordmaster.app</a>
+            To exercise these rights, email us at <a href="mailto:vladislavpshenyanik@gmail.com" className="text-primary-600 hover:underline">vladislavpshenyanik@gmail.com</a>
           </p>
         </section>
 
@@ -107,8 +107,8 @@ export default function PrivacyPage() {
             For privacy concerns or inquiries, contact us at:
           </p>
           <div className="mt-4 p-4 bg-gray-50 rounded-lg">
-            <p><strong>Email:</strong> <a href="mailto:privacy@wordmaster.app" className="text-primary-600 hover:underline">privacy@wordmaster.app</a></p>
-            <p className="mt-2"><strong>Legal:</strong> <a href="mailto:legal@wordmaster.app" className="text-primary-600 hover:underline">legal@wordmaster.app</a></p>
+            <p><strong>Email:</strong> <a href="mailto:vladislavpshenyanik@gmail.com" className="text-primary-600 hover:underline">vladislavpshenyanik@gmail.com</a></p>
+            <p className="mt-2"><strong>Legal:</strong> <a href="mailto:vladislavpshenyanik@gmail.com" className="text-primary-600 hover:underline">vladislavpshenyanik@gmail.com</a></p>
           </div>
         </section>
       </div>

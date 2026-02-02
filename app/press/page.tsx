@@ -190,7 +190,7 @@ export default function PressPage() {
           For press coverage, interviews, or media inquiries, please contact us at:
         </p>
         <a
-          href="mailto:press@wordmaster.app"
+          href="mailto:vladislavpshenyanik@gmail.com"
           className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary-600 rounded-lg font-semibold hover:bg-primary-50 transition-colors"
         >
           <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">

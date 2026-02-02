@@ -49,8 +49,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="mailto:support@wordmaster.app" className="hover:text-white transition-colors">
-                  support@wordmaster.app
+                <a href="mailto:vladislavpshenyanik@gmail.com" className="hover:text-white transition-colors">
+                  vladislavpshenyanik@gmail.com
                 </a>
               </li>
             </ul>
@@ -70,8 +70,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="mailto:legal@wordmaster.app" className="hover:text-white transition-colors">
-                  legal@wordmaster.app
+                <a href="mailto:vladislavpshenyanik@gmail.com" className="hover:text-white transition-colors">
+                  vladislavpshenyanik@gmail.com
                 </a>
               </li>
             </ul>

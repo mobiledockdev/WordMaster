@@ -102,7 +102,7 @@ export default function FAQ() {
           Our support team is here to help. Reach out anytime with questions, feedback, or suggestions.
         </p>
         <a
-          href="mailto:support@wordmaster.app"
+          href="mailto:vladislavpshenyanik@gmail.com"
           className="btn-primary"
         >
           Contact Support

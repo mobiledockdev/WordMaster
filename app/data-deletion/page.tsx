@@ -56,7 +56,7 @@ export default function DataDeletionPage() {
               <div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Send Deletion Request Email</h3>
                 <p className="text-gray-700 mb-4">
-                  Send an email to <strong>privacy@wordmaster.app</strong> with the subject line:
+                  Send an email to <strong>vladislavpshenyanik@gmail.com</strong> with the subject line:
                 </p>
                 <div className="bg-gray-100 p-4 rounded font-mono text-sm mb-4 text-gray-800">
                   Subject: Account and Data Deletion Request
@@ -206,13 +206,13 @@ export default function DataDeletionPage() {
           Send your data deletion request to:
         </p>
         <a
-          href="mailto:privacy@wordmaster.app"
+          href="mailto:vladislavpshenyanik@gmail.com"
           className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary-600 rounded-lg font-semibold hover:bg-primary-50 transition-colors"
         >
           <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
             <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
           </svg>
-          privacy@wordmaster.app
+          vladislavpshenyanik@gmail.com
         </a>
 
         <p className="text-primary-100 mt-8 text-sm">

@@ -135,7 +135,7 @@ export default function TermsPage() {
             For questions about these Terms, contact us at:
           </p>
           <div className="mt-4 p-4 bg-gray-50 rounded-lg">
-            <p><strong>Email:</strong> <a href="mailto:legal@wordmaster.app" className="text-primary-600 hover:underline">legal@wordmaster.app</a></p>
+            <p><strong>Email:</strong> <a href="mailto:vladislavpshenyanik@gmail.com" className="text-primary-600 hover:underline">vladislavpshenyanik@gmail.com</a></p>
           </div>
         </section>
       </div>
