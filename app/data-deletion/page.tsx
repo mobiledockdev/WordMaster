@@ -10,7 +10,6 @@ export default function DataDeletionPage() {
     <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
       <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-2">Data Deletion Request</h1>
       <p className="text-gray-600 mb-8 text-lg">How to request permanent deletion of your WordMaster account and data</p>
-      <p className="text-gray-600 mb-8 italic">Запрос на удаление данных</p>
 
       <div className="bg-gradient-to-r from-red-50 to-orange-50 rounded-xl p-6 mb-12 border border-red-200">
         <h2 className="text-xl font-bold text-red-900 mb-2">⚠️ Important</h2>

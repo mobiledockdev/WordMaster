@@ -40,9 +40,6 @@ export default function Features() {
         <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
           Powerful Features for Language Mastery
         </h2>
-        <p className="text-gray-600 text-lg">
-          Мощные функции для овладения языком
-        </p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

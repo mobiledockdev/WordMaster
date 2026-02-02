@@ -9,7 +9,6 @@ export default function SupportPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
       <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-2">Support Center</h1>
-      <p className="text-gray-600 mb-8 text-lg">Центр поддержки WordMaster</p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
         <div className="bg-gradient-to-br from-primary-50 to-blue-50 rounded-xl p-8 border border-primary-200">
@@ -85,9 +84,6 @@ export default function SupportPage() {
         <h2 className="text-3xl font-bold mb-4">Still need help?</h2>
         <p className="text-primary-100 text-lg mb-2">
           Our support team is ready to assist
-        </p>
-        <p className="text-primary-100 text-lg mb-6 italic">
-          Наша команда поддержки готова помочь
         </p>
         <p className="text-primary-100 mb-6 max-w-2xl">
           Whether you have a question, found a bug, or have a feature request, we'd love to hear from you. Reach out to us anytime and we'll get back to you within 24 hours.
